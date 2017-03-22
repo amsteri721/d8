@@ -1,0 +1,14 @@
+uuid: 23143f7a-6bb7-45df-8dce-4549a7941f04
+name: d8
+mail: medvedevksm@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

@@ -1,0 +1,31 @@
+uuid: 02931e7a-9d09-42fb-a61a-3fbea4bcb21f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:61f10dd6-f172-4b6c-a8b1-4679bff27a62'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: madebymedvedevmaxim
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:61f10dd6-f172-4b6c-a8b1-4679bff27a62'
+settings:
+  id: 'block_content:61f10dd6-f172-4b6c-a8b1-4679bff27a62'
+  label: 'Made by Medvedev Maxim'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

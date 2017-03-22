@@ -1,0 +1,21 @@
+uuid: c036fd74-8bb1-460f-b682-de362e5807cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_contact
+    - field.field.block_content.block_contact.body
+  module:
+    - text
+id: block_content.block_contact.default
+targetEntityType: block_content
+bundle: block_contact
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

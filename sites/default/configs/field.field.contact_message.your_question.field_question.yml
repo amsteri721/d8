@@ -1,0 +1,21 @@
+uuid: 72c287dc-5144-41a3-a557-253bdc866f2d
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.your_question
+    - field.storage.contact_message.field_question
+  module:
+    - text
+id: contact_message.your_question.field_question
+field_name: field_question
+entity_type: contact_message
+bundle: your_question
+label: Question
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

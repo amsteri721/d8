@@ -1,0 +1,36 @@
+uuid: 17d602f3-2acc-4e48-86d3-9786d5d75cd5
+langcode: en
+status: true
+dependencies:
+  config:
+    - contact.form.personal
+id: contact_message.personal.default
+targetEntityType: contact_message
+bundle: personal
+mode: default
+content:
+  copy:
+    weight: 50
+  mail:
+    weight: -40
+  message:
+    type: string_textarea
+    weight: 0
+    settings:
+      rows: 12
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    weight: -50
+  preview:
+    weight: 40
+  recipient:
+    weight: -30
+  subject:
+    type: string_textfield
+    weight: -10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

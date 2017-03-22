@@ -1,0 +1,31 @@
+uuid: 506ef4b1-0ffc-428b-a7a3-dbb1509871a7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d0dd0ff6-6a6e-4052-901e-c1b2fa4b1c47'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: map
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:d0dd0ff6-6a6e-4052-901e-c1b2fa4b1c47'
+settings:
+  id: 'block_content:d0dd0ff6-6a6e-4052-901e-c1b2fa4b1c47'
+  label: Map
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /contact
+    negate: false
+    context_mapping: {  }

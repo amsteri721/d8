@@ -1,0 +1,12 @@
+uuid: 32b696c8-f13c-4e31-b4a5-9becb848c6ae
+langcode: en
+status: true
+dependencies: {  }
+id: your_question
+label: 'Your question'
+recipients:
+  - medvedevksm@gmail.com
+reply: 'Thank you!'
+weight: 0
+message: ''
+redirect: ''
