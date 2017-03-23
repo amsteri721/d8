@@ -1,0 +1,22 @@
+uuid: 09321728-f62f-44b9-92b1-1f1fad6e5ce5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.field_collection_item.field_discription
+    - field_collection.field_collection.field_image_collection
+  module:
+    - text
+id: field_collection_item.field_image_collection.field_discription
+field_name: field_discription
+entity_type: field_collection_item
+bundle: field_image_collection
+label: Discription
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

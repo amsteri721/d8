@@ -1,0 +1,21 @@
+uuid: 9b3a0311-7fe2-469d-befa-890c3112dcae
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_vk
+    - field.field.block_content.block_vk.body
+  module:
+    - text
+id: block_content.block_vk.default
+targetEntityType: block_content
+bundle: block_vk
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

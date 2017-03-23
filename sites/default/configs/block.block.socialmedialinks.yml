@@ -1,0 +1,104 @@
+uuid: 9fa53e7f-8c30-4ed3-a25f-17c3ba3b4f0f
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - bartik
+id: socialmedialinks
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: visible
+  platforms:
+    rss:
+      value: ''
+      description: ''
+      weight: '-10'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '-9'
+    googleplus:
+      value: ''
+      description: ''
+      weight: '-8'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-7'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '-6'
+    email:
+      value: ''
+      description: ''
+      weight: '-5'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-4'
+    github:
+      value: d8
+      description: ''
+      weight: '-3'
+    behance:
+      value: ''
+      description: ''
+      weight: '-2'
+    youtube_channel:
+      value: UC7f5bVxWsm3jlZIPDzOMcAg
+      description: ''
+      weight: '-1'
+    twitter:
+      value: ''
+      description: ''
+      weight: '0'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '1'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '2'
+    contact:
+      value: ''
+      description: ''
+      weight: '3'
+    youtube:
+      value: ''
+      description: ''
+      weight: '4'
+    instagram:
+      value: ''
+      description: ''
+      weight: '5'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '6'
+    facebook:
+      value: ''
+      description: ''
+      weight: '7'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

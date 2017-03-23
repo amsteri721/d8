@@ -1,0 +1,8 @@
+uuid: f96c3395-762a-41ca-8270-d1bcebfc3fec
+langcode: en
+status: true
+dependencies: {  }
+id: block_vk
+label: 'Block vk'
+revision: 0
+description: ''
